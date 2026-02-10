@@ -53,7 +53,6 @@ end
 
 function RemoveItem(source, name, count)
 	local xPlayer = ESX.GetPlayerFromId(source)
-	print(count)
 	xPlayer.removeInventoryItem(name, count)
 end
 
